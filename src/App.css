@@ -16,11 +16,13 @@ a:link, a:visited, a:active {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
   gap: 20px;
+  /* display: grid;  no anda cuando despliego la pagina*/ 
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  grid-template-areas: 
-  "Navigation Information" ;
+  /* grid-template-areas: 
+  "Navigation Information" ; */
 }
 

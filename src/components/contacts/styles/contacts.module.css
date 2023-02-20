@@ -1,0 +1,33 @@
+.container{
+    grid-area: Information ;
+    width: 800px;
+    background-color: black;
+    border-radius: 0.2rem;
+    height: 600px;
+}
+.container{
+    grid-area: Information ;
+    width: 800px;
+    background-color: black;
+    border-radius: 0.2rem;
+    height: 600px;
+}
+.container h4{
+    color: rgb(57, 189, 241);
+    margin: 20px;
+    
+    font-size: x-large;
+    font-weight: 900;
+    text-align: left;
+}
+.container p  {
+    color: white;
+    margin: 20px;
+    font-size: medium;
+    font-weight:700;
+    text-align: left;
+}
+.info{
+    margin: 20px;
+    margin-bottom: 40px;
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import Aside from './components/aside/Aside.jsx'
+import Proyects from './components/proyects/Proyects';
+import Contact from './components/contacts/Contacts';
+import Person from './components/personalInformation/Person';
+import Studies from './components/studies/Studies.jsx';
+import Goals from './components/goals/Goals.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Aside />} />
+        <Route exact path="/person" element={<><Aside /> <Person /></>} />
+        <Route exact path="/goals" element={<><Aside /> <Goals /></>}/>  
+        <Route exact path="/studies" element={<><Aside /> <Studies /></>} />   
+        <Route exact path="/proyects" element={<><Aside /> <Proyects /></>} />  
+        <Route exact path="/contact" element={<><Aside /> <Contact /></>} />  
+      </Routes>
     </div>
   );
 }
 
 export default App;
+
+
+

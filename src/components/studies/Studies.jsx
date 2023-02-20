@@ -24,7 +24,7 @@ const Studies = ()=>{
             </div>
             <div>
                 <h4 className={styles.tittleUniversity}>Universidad Nacional Santiago Del Estero</h4>
-                <p>Estudiante avanzado ingenieria electronica. En esta carrera se vio el tema de programacion de micro-controladores Pic.</p>
+                <p>Estudiante avanzado <b>Ingenieria Electronica</b>. En esta carrera se vio el tema de programacion de micro-controladores Pic.</p>
             </div>
         </div>
     )

@@ -31,7 +31,7 @@ const Goals =()=>{
                         </li>
                         <br />
                         <li>
-                            Tener una vida sana viviendo de la programacion.
+                            Tener una vida sana y etica viviendo de la programacion.
                         </li>
                         <br />
                         <li>

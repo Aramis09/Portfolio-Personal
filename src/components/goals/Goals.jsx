@@ -8,9 +8,9 @@ const Goals =()=>{
                 <h4>Objetivos de Trabajo</h4>
                 <p>
                     <ul>
-                        <li>Libertad de trabajar de <b>forma remota</b> desde mi pais hacia otros paises.</li>
+                        <li>Libertad de trabajar de <b>forma remota</b> desde mi país hacia otros países.</li>
                         <br />
-                        <li>Capacidad de <b>crecimiento personal</b> en la empresa a nivel de conocimientos y sueldo. </li>
+                        <li>Capacidad de <b>crecimiento personal</b> en la empresa en cuanto a conocimientos y sueldo. </li>
                         <br />
                         <li><b>Buen ambiente laboral</b> en el equipo de trabajo. Siempre estoy dispuesto a brindar lo mejor de mi persona.</li>
                         <br />
@@ -27,15 +27,15 @@ const Goals =()=>{
                 <p>
                     <ul>
                         <li>
-                            Posibilidad de conocer la empresa, sin importar el pais (No somos solo un microfono y una video-camara, siempre <b>me interesa conocer a mis compañeros</b>).
+                        Posibilidad de conocer la empresa, sin importar el país (No somos solo un micrófono y una videocámara, siempre <b>me interesa conocer a mis compañeros</b>).
                         </li>
                         <br />
                         <li>
-                            Tener una vida sana y etica viviendo de la programacion.
+                            Tener una vida sana y ética viviendo de la programación.
                         </li>
                         <br />
                         <li>
-                            LLegar a ser senior developer JavaScript.
+                            Alcanzar el objetivo de ser Senior Developer JavaScript.
                         </li>
                     </ul>
                 </p>

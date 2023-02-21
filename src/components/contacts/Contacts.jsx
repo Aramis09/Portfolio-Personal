@@ -4,7 +4,7 @@ const Contact = props =>{
     return (
         <div className={styles.container}>
             <div className={styles.info}>
-                <h4>Telefono:</h4>
+                <h4>Teléfono:</h4>
                 <p>+54 9 385 6886004</p>
             </div>
             <div className={styles.info}>
@@ -12,7 +12,7 @@ const Contact = props =>{
                 <p>https://wa.me/5493856886004</p>
             </div>
             <div className={styles.info}>
-                <h4>Linkedin</h4>
+                <h4>LinkedIn</h4>
                 <p>linkedin.com/in/AramisDev</p>
             </div>
             <div className={styles.info}>

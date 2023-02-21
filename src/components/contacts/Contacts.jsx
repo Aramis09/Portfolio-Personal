@@ -1,6 +1,13 @@
 import styles from './styles/contacts.module.css'
 
 const Contact = props =>{
+    
+    const openNewTab = (id) => {
+        const link = document.getElementById(id).textContent;
+        console.log(link)
+        window.open(link, '_blank');
+
+     };
     return (
         <div className={styles.container}>
             <div className={styles.info}>
@@ -9,11 +16,11 @@ const Contact = props =>{
             </div>
             <div className={styles.info}>
                 <h4>WhatsApp</h4>
-                <p>https://wa.me/5493856886004</p>
+                <p id = 'wpp' onClick={()=>openNewTab('wpp')}>https://wa.me/5493856886004</p>
             </div>
             <div className={styles.info}>
                 <h4>LinkedIn</h4>
-                <p>linkedin.com/in/AramisDev</p>
+                <p id ='In' onClick={()=>openNewTab('In')}>https://www.linkedin.com/in/AramisDev/</p>
             </div>
             <div className={styles.info}>
                 <h4>Mail</h4>
@@ -21,7 +28,7 @@ const Contact = props =>{
             </div>
             <div className={styles.info}>
                 <h4>GitHub</h4>
-                <p>github.com/Aramis09</p>
+                <p id = 'Git' onClick={()=>openNewTab('Git')}>https://www.github.com/Aramis09</p>
             </div>
         </div>
     );

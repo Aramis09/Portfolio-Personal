@@ -23,7 +23,7 @@ const Proyects = props =>{
                 <p>
                    <strong>Individual Proyect:</strong>  &nbsp; Esto es la penúltima etapa del bootcamp 'Soy Henry', que consta del desarrollo de una
                     página web desde cero de forma individual. <br />
-                    Link: <b> https://proyectodogs.netlify.app/</b>
+                    Link: <b> proyectodogs.netlify.app</b>
                     <ul>
                        <li> Cliente: &nbsp; Creado en su totalidad con <b>React Js</b>, manejando un estado centralizado con <b>Redux</b>.</li>
                                     <br />

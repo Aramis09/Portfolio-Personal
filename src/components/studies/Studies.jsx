@@ -5,7 +5,8 @@ const Studies = ()=>{
             <div>
                 <h4 className={styles.tittleBootcamp}>Soy Henry</h4>
                 <p>Soy estudiante avanzado del este bootcamp, estando en la etapa final del curso. <br />
-                    El mismo consta de 4 módulos donde se ve un panorama general de un Full-Stack developer:
+                    El mismo consta de 4 módulos donde se ve un panorama general de un Full-Stack developer: <br />
+                    Link: www.soyhenry.com
                     <ul>
                         <li>
                             Módulos 1: &nbsp;Nos enseñan toda la lógica de programación, viendo distintos tipos de estructuras de datos como <b>listas 
